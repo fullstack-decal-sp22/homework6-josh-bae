@@ -1,9 +1,12 @@
 {
   "name": "node-server",
   "version": "1.0.0",
+  "homepage": "https://fullstack-decal.github.io/homework4-{josh-bae}",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build",
     "start": "node index.js"
   },
   "keywords": [],
